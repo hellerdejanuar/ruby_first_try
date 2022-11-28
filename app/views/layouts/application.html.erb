@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anfibio</title>
+    <meta charset="UTF-8">
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <%= stylesheet_link_tag "styles", "data-turbo-track": "reload" %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;400;800&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <%= render 'home/header'%>
+    <%= yield %>
+    <%= render 'home/footer'%>
+</body>
+</html>

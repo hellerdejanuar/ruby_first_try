@@ -1,0 +1,29 @@
+.module {
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-image: url("../img/componentes_basicos.svg");
+	background-size: 2000px;
+	animation-delay: 1s;
+}
+
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-image: url("../img/curva.svg");
+	background-size: 1000px;
+
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/Grid.svg");
+	background-size: 100px 100px;
+	background-repeat: repeat;
+	background-color: #666;
+}
+

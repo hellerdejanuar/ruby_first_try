@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Gate" transform="matrix(0.0994844,0,0,0.0994844,-128.002,-81.0015)">
+        <g transform="matrix(1,0,0,1,23.622,0)">
+            <g transform="matrix(0.36,0,0,1.25,907.087,-295.276)">
+                <rect x="1417.32" y="1181.1" width="1181.1" height="377.953" style="fill:none;stroke:black;stroke-width:25.96px;"/>
+            </g>
+            <rect x="1511.81" y="1181.1" width="83.087" height="283.465" style="fill:none;stroke:black;stroke-width:23.88px;"/>
+            <rect x="1663.4" y="1181.1" width="84.634" height="283.465" style="fill:none;stroke:black;stroke-width:23.88px;"/>
+            <g transform="matrix(10.0518,0,0,10.0518,531.592,207.71)">
+                <path d="M112.597,125.038L116.317,125.038L116.317,143.838L102.217,143.838L102.217,125.038L105.782,125.038L105.782,96.837L112.597,96.837L112.597,125.038Z" style="fill:none;stroke:black;stroke-width:2.38px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-165.354,-2.27374e-13)">
+            <path d="M2125.98,1511.81L2220.47,1511.81L2220.47,1299.21L2409.45,1299.21L2409.45,1511.81L2503.94,1511.81" style="fill:none;stroke:black;stroke-width:57.31px;stroke-linecap:butt;stroke-linejoin:miter;"/>
+        </g>
+    </g>
+</svg>

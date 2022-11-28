@@ -1,0 +1,177 @@
+* {
+    font-family: 'Montserrat' !important;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, footer{
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, footer {
+    text-align: center ;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+ul {
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color:#222222;
+}
+
+.grid_backg{
+    background-image: url("../img/general/grid.svg");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: 200px auto;
+    margin: 0px;
+	background-repeat: repeat;
+}
+
+button{
+    text-decoration: none;
+    height: inherit;
+    border: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #ffffff22;
+    border-radius: 0px;
+}
+
+button:hover, .patchlibbutton:hover {
+    background-color: #ffffff42;
+}
+
+.navbar {
+    background-color:#2B2B2B;
+    height: 50px;
+    position: fixed;
+    clear: both;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 30px;
+    padding: 0px 40px 0px 10px;
+}
+
+
+
+.lang {
+    float: right;
+    width: 50px;
+    font-weight: thin;
+    background-color: inherit;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    margin-right: 15px;
+}
+
+.lang, .logo, a div{
+    transition: ease-out 0.4s;
+}
+
+.lang:hover, .logo:hover {
+    background-color: #444444;
+    transition: ease-out 0.2s;
+}
+
+.secnavbar {
+    height: 30px;
+    background-color:#262626;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+}
+
+.secnavbar li {
+    float: left;
+    list-style: none;
+
+}
+
+.secnavbar div {
+    font-weight: 400;
+    width: 250px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #dad190;
+    transition: ease-out 0.2s;
+    
+}
+
+.secnavbar li:first-child{
+    margin-left: 30px;
+}
+
+
+
+.secnavbar a div:hover {
+    background-color:#353535;
+    color: white;
+    transition: ease-out 0.2s;
+}
+
+
+.workspace {
+    width: 100%;
+    background-color: #ffffff22;
+}
+
+
+.bottomspace {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottombar {
+    height: 30px;
+    background-color:#161616;
+    clear: both;
+ }
+
+.patchlibbutton {
+    width: 200px;
+    font-size: 12pt;
+    color: white;
+    height: inherit;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.patchlibbutton span {
+    display: inline-flex;
+    height: inherit;
+    align-items: center;
+}
+
+.patchlibbutton:first-child {
+    padding-left: 2px;
+}
+
+.patchlibbutton:first-child img {
+    height: 26px
+}
+#patchbt_txt {
+    margin-left: 10px;
+    letter-spacing: 2px;
+    user-select: none;
+}

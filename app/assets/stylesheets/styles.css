@@ -1,0 +1,265 @@
+* {
+    font-family: 'Montserrat' !important ;
+    margin: 0px;
+}
+
+
+
+body, main {
+    display:flex;
+}
+
+body {
+    flex-direction: column;
+    margin: 0px;
+    background-color:#222222;
+    width: 100%;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+}
+
+header{
+    padding: 0px;
+    height: auto;
+    border-bottom: none;
+
+}
+
+header nav li a {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, footer{
+    color: white;
+}
+
+h6 {
+    text-decoration: none !important;
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, footer {
+    text-align: center ;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: small;
+}
+
+ul {
+    padding: 0px;
+}
+
+.grid_backg{
+    background-image: url("../img/general/grid.svg");
+    height: 200%;
+    width: 200%;
+    position: fixed;
+    background-size: 200px auto;
+    margin: 0px;
+	background-repeat: repeat;
+    margin-top: -200px;
+}
+
+button{
+    text-decoration: none;
+    height: inherit;
+    border: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #ffffff22;
+    border-radius: 0px;
+}
+
+button:hover, .patchlibbutton:hover {
+    background-color: #ffffff42;
+}
+
+
+.titlebar {
+    background-color:#2B2B2B;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+
+
+.lang {
+    float: right;
+    width: 50px;
+    font-weight: thin;
+    background-color: inherit;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    margin-right: 15px;
+}
+
+.lang, .logo, a div{
+    transition: ease-out 0.4s;
+}
+
+.lang:hover, .logo:hover {
+    background-color: #444444;
+    transition: ease-out 0.2s;
+}
+
+.navbar {
+    height: 30px;
+    background-color:#262626;
+    width: 100%;
+    top: 50px;
+    margin-top: 0pt !important;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none; 
+}
+
+.navbar div {
+    font-weight: 400;
+    width: 250px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #dad190;
+    transition: ease-out 0.2s;
+    
+}
+
+.navbar li:first-child{
+    margin-left: 30px;
+}
+
+
+
+.navbar a div:hover {
+    background-color:#353535;
+    color: white;
+    transition: ease-out 0.2s;
+}
+
+article {
+    padding: 40px;
+    flex: 2;
+    overflow-y: auto;
+    text-align: center;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff0a;
+}
+
+aside div {
+    background-color: #FFFFFF20;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+aside div p {
+    background-color: #FFFFFF20;
+    border: none;
+    color: white;
+}
+
+
+.reviewsname {
+    padding: 10px 0 10px 15px ;
+    background-color: transparent;
+}
+
+.reviewsname h6 {
+    display: inline;
+    padding-left: 10px;
+}
+
+.reviewsname img {
+    height: 50px;
+}
+
+
+.subtitle {
+    font-weight: lighter;
+    font-size: 17pt;;
+    line-height: 130%;
+    margin: 0px 50px 0 50px;
+}
+
+.title {
+    font-size: 20pt;
+    letter-spacing: 1pt;
+    line-height: 110%;
+}
+
+.component {
+    filter: invert(1);
+    height: 100px;
+    margin-bottom: -20px;
+    
+}
+
+#dicttable tr td {
+    width: 200px;
+    text-align: center;
+    vertical-align: top !important;
+}
+
+#dicttable tr td p {
+    font-size: small;
+    line-height: 130%;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.row2 h6, .row3 h6, .row4 h6, .row5 h6 {
+    font-family: "Futura", sans-serif !important;
+    font-size: medium;
+    margin-bottom: 10px;
+} 
+
+.big {
+    height: 1800px !important;
+    max-width: unset;
+}
+
+
+#icon_ig {
+    background-color: #ff1f7d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 10pt;
+    width: min-content;
+}
+
+.info_text {
+    text-align: left;
+}
