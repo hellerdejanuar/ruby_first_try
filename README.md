@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a first attempt at building a site with ruby on rails
+I recycled much of the code of an old personal website so it's written without
+following style rules, but it looks kinda pretty on the browser so theres that...
 
-Things you may want to cover:
+* Ruby version 
+    ruby 3.1.2p20
 
-* Ruby version
+* Rails version
+    Rails 7.0.4
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
