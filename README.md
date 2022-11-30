@@ -16,3 +16,5 @@ Add: Login to see content
 * Rails version
     Rails 7.0.4
 
+* sql version
+    sqlite 3.37.0

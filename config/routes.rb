@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  resources :users
   get 'errors/not_found'
   get 'home/index'
+  get 'index', to:'home#index'
   get 'home/not_available'
   get 'home/about'
   
