@@ -9,10 +9,28 @@
     </div>   
     <nav class="navbar" style="margin-top: 2pt;">
         <ul>
-            <li><a href="index.html"><div>Intro</div></a> <!-- this is old code, forgiv plz -->
-            <li><a href="not_available.html"><div style="color: gray;">Cursos</div></a>
-            <li><a href="nothing_here.html"><div style="color: gray;">Novedades</div></a>
-            <li><a href="about.html"><div>Info</div></a>
+            <li>
+                <%= link_to home_index_path do %>
+                    <div class="text-amber-200">Intro</div></a> 
+                <% end %>
+            
+            <li>
+                <%= link_to home_not_available_path, class: 'w-full h-full' do %>
+                    <div class="nav-link text-zinc-500">Cursos</div>
+                <% end %>
+                
+            <li>
+                <%= link_to home_about_path , class:'nav-link text-zinc-500' do %>
+                    <div>Novedades</div>
+                <% end %>
+            <li>
+                <%= link_to home_about_path , class:'nav-link text-amber-200' do %>
+                    <div>Info</div>
+                <% end %>
+            <li>
+                <%= link_to new_user_path , class:'nav-link text-amber-200' do %>
+                    <div>Registrate</div>
+                <% end %>
         </ul>    
     </nav>
 </header>
