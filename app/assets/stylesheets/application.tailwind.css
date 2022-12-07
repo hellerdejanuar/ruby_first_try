@@ -11,3 +11,18 @@
 }
 
 */
+
+
+@layer components { 
+  .btn-secondary {
+    @apply bg-zinc-800 hover:bg-zinc-700 text-gray-300 font-bold border-[1px] p-2 px-4 rounded w-fit mt-10;
+  }
+  .btn-primary {
+    @apply bg-zinc-300 hover:bg-zinc-400 text-zinc-800 font-bold p-2 px-4 rounded w-fit mt-10;
+  }
+}
+
+body {
+  background-color:#222222;
+  color: white;
+}

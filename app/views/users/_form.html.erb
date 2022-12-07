@@ -12,21 +12,28 @@
   <% end %>
 
   <div>
-    <%= form.label :first_name, style: "display: block" %>
-    <%= form.text_field :first_name %>
+    <%= form.label :first_name,style: "display: block" %>
+    <%= form.text_field :first_name, :placeholder => 'First Name', class:"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" %>
   </div>
 
   <div>
-    <%= form.label :last_name, style: "display: block" %>
-    <%= form.text_field :last_name %>
+    <%= form.label :last_name, class:"mt-5", style: "display: block" %>
+    <%= form.text_field :last_name, :placeholder => 'Last Name', class:"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" %>
   </div>
 
   <div>
-    <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
+    <%= form.label :email, class:"mt-5", style: "display: block" %>
+    <%= form.text_field :email, :placeholder => 'example@email.com', class:"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" %>
   </div>
 
-  <div class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded w-fit mt-10">
+  <div class="btn-primary mb-5">
     <%= form.submit %>
   </div>
+
+  <div class="">
+  <%= link_to "Back to users", users_path, class:"btn-secondary" %>
+</div>
+
+
 <% end %>
+</div>
