@@ -1,17 +1,13 @@
 <div id="<%= dom_id comment %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Body:</strong>
+  <div class="reviewsname">    <%= image_tag "pics/av_default.png", class:"inline", alt: "pics/av_default.png" %> <!--@comment.user.imageUrl, onerror: 'this.error=null;this.src="pics/av_f_bolajuzon.png"'-->
+<h6 >
+    <%= comment.user.first_name %>
+    <%= comment.user.last_name %>
+    <button class="btn btn-grey">
+      <%= link_to "Edit", edit_comment_path(comment) %>
+    </button>
+  </h6></div>
+  <p>
     <%= comment.body %>
   </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">User:</strong>
-    <%= comment.user_id %>
-  </p>
-
-  <% if action_name != "show" %>
-    <%= link_to "Show this comment", comment, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium text-black" %>
-    <%= link_to 'Edit this comment', edit_comment_path(comment), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium text-black" %>
-    <hr class="mt-6">
-  <% end %>
 </div>

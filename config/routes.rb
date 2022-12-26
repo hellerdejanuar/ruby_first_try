@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'demo/particles'
   resources :comments
   resources :users
   get 'errors/not_found'
